@@ -1,0 +1,19 @@
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/NodeLoaderCompiler.js:15:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/NodeLoaderCompiler.js:15:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/NodeLoaderCompiler.js:15:30: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/NodeLoaderCompiler.js:17:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/NodeLoaderCompiler.js:17:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:15:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:15:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:15:38: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:16:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:16:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:16:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:17:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:17:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:17:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:41:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:41:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:41:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/traceur@0.0.95/src/node/get-dependencies.js:41:16: Semi-colon expected

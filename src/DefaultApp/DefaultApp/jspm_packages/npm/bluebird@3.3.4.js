@@ -1,0 +1,1 @@
+module.exports = require("npm:bluebird@3.3.4/js/browser/bluebird.js");

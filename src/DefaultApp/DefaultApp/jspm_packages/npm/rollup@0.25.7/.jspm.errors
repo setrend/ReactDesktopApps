@@ -1,0 +1,616 @@
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:1:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:2:14: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:2:19: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:9:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:9:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:9:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/attachScopes.js:9:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/conditions.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/conditions.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/conditions.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/conditions.js:7:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/flatten.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/flatten.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/flatten.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/flatten.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/create.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/create.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/extractNames.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/extractNames.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/extractNames.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/extractNames.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isFunctionDeclaration.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isFunctionDeclaration.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isFunctionDeclaration.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isFunctionDeclaration.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/modifierNodes.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/modifierNodes.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/modifierNodes.js:7:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/modifierNodes.js:7:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/modifierNodes.js:9:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/modifierNodes.js:9:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isReference.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isReference.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isReference.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/isReference.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:1:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:2:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:2:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:3:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:3:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:5:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:5:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ast/Scope.js:5:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:1:21: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:1:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:1:40: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:1:45: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:2:14: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:2:19: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:3:37: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:4:15: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:4:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:5:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:5:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:6:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:6:19: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:6:24: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:7:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:7:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:7:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:8:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:8:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:8:45: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:9:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:9:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:9:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:9:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:10:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:10:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:10:24: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:10:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:11:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:11:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:11:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:12:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:12:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:12:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:13:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:13:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:13:18: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:13:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:14:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:14:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:14:24: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:14:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:15:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:15:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:15:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:15:32: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:16:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:16:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:16:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:16:31: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:17:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:17:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:17:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:17:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:18:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:18:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:18:37: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:20:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:20:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:20:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Bundle.js:20:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:1:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:2:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:2:33: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:3:37: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:5:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:5:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/ExternalModule.js:5:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:1:37: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:2:12: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:2:17: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:3:36: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:7:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:7:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:77:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:77:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:138:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:138:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:175:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:175:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:257:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Declaration.js:257:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:1:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:1:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:3:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:3:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/cjs.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:1:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:7:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/es6.js:7:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:1:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:2:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:3:24: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:3:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:4:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:4:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:5:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:5:32: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:19:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:19:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:19:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/iife.js:19:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:1:34: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:2:24: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:2:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:3:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:3:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:5:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:5:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/amd.js:5:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getExportBlock.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getExportBlock.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getExportBlock.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getExportBlock.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getGlobalNameMaker.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getGlobalNameMaker.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getGlobalNameMaker.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getGlobalNameMaker.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getInteropBlock.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getInteropBlock.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getInteropBlock.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/shared/getInteropBlock.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:1:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:2:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:2:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:3:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:4:18: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:4:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:5:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:6:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:6:35: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:7:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:7:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:7:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:8:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:8:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:8:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:8:33: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:9:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:9:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:9:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:9:31: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:10:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:10:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:14:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:15:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:15:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:15:35: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:16:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:16:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:16:37: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:17:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:17:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:17:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:17:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:19:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:19:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:19:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Module.js:19:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:1:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:2:39: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:3:24: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:3:29: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:4:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:4:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:5:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:5:32: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:18:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:18:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:18:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/umd.js:18:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Reference.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Reference.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Reference.js:25:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Reference.js:25:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:1:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:1:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:2:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:3:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:4:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:5:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:5:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:6:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:6:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:6:31: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:7:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:7:15: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:7:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:9:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:9:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:30:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/rollup.js:30:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:1:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:2:14: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:2:19: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:3:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:3:26: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:4:42: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:4:47: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:5:30: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:5:35: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:6:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:6:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:6:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:7:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:7:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:7:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:8:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:8:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:8:12: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:8:17: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:9:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:9:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:9:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:11:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:11:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:11:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/Statement.js:11:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/callIfFunction.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/callIfFunction.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/callIfFunction.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/callIfFunction.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:1:32: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:85:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:85:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:85:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/collapseSourcemaps.js:85:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/ensureArray.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/ensureArray.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/ensureArray.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/ensureArray.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:1:21: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:1:28: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:1:58: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:2:46: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:3:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:5:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:18:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:18:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:34:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/defaults.js:34:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:1:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:1:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:5:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:5:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/first.js:5:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/error.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/error.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/error.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/error.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:1:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:1:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:2:13: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:2:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:2:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:3:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:15:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:15:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:24:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:24:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:38:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:38:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:39:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/fs.js:39:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:1:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:7:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getExportMode.js:7:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getIndentString.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getIndentString.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getIndentString.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getIndentString.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:1:23: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:10:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:10:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:10:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/makeLegalIdentifier.js:10:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getLocation.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getLocation.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getLocation.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/getLocation.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/map-helpers.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/map-helpers.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/map-helpers.js:5:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/map-helpers.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/map-helpers.js:9:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/map-helpers.js:9:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/normalizePlatform.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/normalizePlatform.js:1:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/object.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/object.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/object.js:3:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/object.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/object.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/object.js:7:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:3:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:4:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:6:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:10:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:10:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:14:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:14:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:18:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:18:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:28:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:28:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:34:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:34:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:57:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/path.js:57:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/promise.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/promise.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/promise.js:1:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/promise.js:1:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/promise.js:3:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/promise.js:3:8: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/pureFunctions.js:42:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/pureFunctions.js:42:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/pureFunctions.js:42:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/pureFunctions.js:42:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:1:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:2:42: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:2:47: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:3:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:3:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:4:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:4:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:5:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:5:27: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:6:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:6:20: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:6:25: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:7:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:7:14: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:7:19: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:53:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:53:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:53:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/run.js:53:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/sourceMappingURL.js:6:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/sourceMappingURL.js:6:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/sourceMappingURL.js:6:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/sourceMappingURL.js:6:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:1:16: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:1:21: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:3:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:3:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transform.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transformBundle.js:1:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transformBundle.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transformBundle.js:1:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/transformBundle.js:1:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:1:22: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:3:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:3:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/utils/validateKeys.js:3:16: Semi-colon expected
+
+MultipleErrors: C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:1:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:1:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:1:12: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:1:17: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:2:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:2:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:2:12: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:2:17: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:3:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:3:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:3:12: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:3:17: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:4:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:4:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:4:13: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:4:18: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:5:1: Unexpected reserved word import
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:5:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:5:12: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:5:17: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:7:1: Unexpected reserved word export
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:7:8: Semi-colon expected
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:7:8: Unexpected reserved word default
+C:/Users/mythz/AppData/Local/.jspm/packages/npm/rollup@0.25.7/src/finalisers/index.js:7:16: Semi-colon expected

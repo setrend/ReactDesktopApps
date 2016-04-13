@@ -1,0 +1,1 @@
+module.exports = require("npm:liftoff@2.2.1/index.js");
