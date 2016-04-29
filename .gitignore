@@ -164,7 +164,7 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
-bower_components/
+jspm_packages/
 staging-console/
 staging-winforms/
 
