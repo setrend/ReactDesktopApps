@@ -34,7 +34,7 @@ have an existing install of Mono.
 ### React Desktop App VS.NET Template
 
 The **React Desktop Apps** template is pre-configured with the necessary tools to package your Web Application 
-into multiple platforms using the provided Grunt build tasks. The Desktop Apps are also debuggable
+into multiple platforms using the provided Gulp build tasks. The Desktop Apps are also debuggable
 allowing for a simplified and iterative dev workflow by running the preferred Host Project:
 
 - **Web** - ASP.NET Web Application
@@ -63,7 +63,7 @@ The resulting project structure is the same as the
 but with 3 additional projects for hosting the new Desktop and Console Apps and a Common **Resources** project
 shared by Host projects containing all the ASP.NET resources (e.g. .css, .js, images, etc) as embedded
 resources. It's kept in-sync with the primary **DefaultApp** project with the `01-bundle-all` or `default` 
-Grunt tasks.
+Gulp tasks.
 
 ![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/react-desktop-apps/combined-project-structure.png)
 
@@ -82,28 +82,26 @@ Grunt tasks.
  - **DefaultApp.AppMac** - OSX Cocoa Host project
 
 This is a Xamarin Studio project which can be built with Xamarin.Mac and uses the compiled embedded resources
-`lib\DefaultApp.Resources.dll` created by the **01-bundle-all** Grunt task.
+`lib\DefaultApp.Resources.dll` created by the **01-bundle-all** Gulp task.
 
 ### DefaultApp Project
 
 The primary **DefaultApp** project contains the complete React Web App hosted in an ASP.NET Project. 
-It includes `gruntfile.js` which provides the necessary Grunt tasks to bundle and optimize the Wep Application 
-ready for deployment as well as Grunt tasks to minify the Web Applications assets and publishes them 
+It includes `Gulpfile.js` which provides the necessary Gulp tasks to bundle and optimize the Wep Application 
+ready for deployment as well as Gulp tasks to minify the Web Applications assets and publishes them 
 embedded resources into the shared **DefaultApp.Resources** project. This project is how the React WebApp
 is made available to the alternative Desktop and Console Apps.
 
-The primary Grunt Tasks you'll use to package and deploy your App are contained in **Alias Tasks** group
+The primary Gulp Tasks you'll use to package and deploy your App
 which is easily runnable from VS .NET's 
 [Task Runner Explorer](https://visualstudiogallery.msdn.microsoft.com/8e1b4368-4afb-467a-bc13-9650572db708)
-which is built into VS 2015:
-
-![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/gap/react-desktop-tasks.png)
+which is built into VS 2015.
 
 - **default** - Runs `01-bundle-all` and creates packages for `02-package-console` and `03-package-winforms`
 - [**01-bundle-all**](#01-bundle-all) - optimizes and packages Web App the into `wwwroot` and `Resources` project
 - [**02-package-console**](#02-package-console) - Packages the Console App in `wwwroot_build\apps`
-- [**03-package-winforms**](#03-package-winforms) - Packages the Winforms App in `wwwroot_build\apps`
-- [**04-deploy-webapp**](#04-deploy-webapp) - deploys the Web App in `wwwroot` with MS WebDeploy to any IIS Server using config `wwwroot_build\publish\config.json`
+- [**02-package-winforms**](#02-package-winforms) - Packages the Winforms App in `wwwroot_build\apps`
+- [**03-deploy-webapp**](#03-deploy-webapp) - deploys the Web App in `wwwroot` with MS WebDeploy to any IIS Server using config `wwwroot_build\publish\config.json`
 
 The template also includes the **ILMerge** tool to merge all .NET .dlls (inc. Resources.dll) into a single,
 cross-platform Console Application .exe that's runnable as-is on any Windows, OSX or Linux server with .NET
@@ -113,13 +111,10 @@ Downloads for the Default Template Console App:
 
 #### [DefaultApp-console.exe](https://github.com/ServiceStackApps/ReactDesktopApps/raw/master/dist/DefaultApp-console.exe) (4.8MB) or [DefaultApp-console.zip](https://github.com/ServiceStackApps/ReactDesktopApps/raw/master/dist/DefaultApp-console.zip) (1.5MB)
 
-Since the Winforms requires CefSharp's native Chromium .dlls it can't be ILMerged, instead we use 7Zip's SFX 
-utility to package the Winforms application into a single self-extracting executable that like the Console App 
-is also installer-less and can be xcopied and runnable as-is. 
-
-Download for the Default Template Winforms App: 
-
-#### [DefaultApp-winforms.exe](https://github.com/ServiceStackApps/ReactDesktopApps/raw/master/dist/DefaultApp-winforms.exe) (23.7 MB)
+For WinForms we are taking advantage of Squirrel.Windows to produce our Windows installer and handle updating of our Windows client application.
+Squirrel.Windows is run via the `02-package-winforms` Gulp task and produces us a `Setup.exe` that auto runs our application on install.
+We can then release and manage updates of this application using GitHub releases. Our client application will check GitHub for new versions, then 
+download and install them if any are available.
 
 To package the OSX App you'll need to open the **DefaultAppMac.sln** in Xamarin.Studio on OSX which packages
 the App as on OSX App or Installer. 
@@ -141,13 +136,9 @@ The necessary infrastructure for optimizing, packaging the React Web Application
   /publish                    
     config.json               # deployment config for WebDeploy IIS deployments
   /tools                      # deployment tools for Console and Winforms Apps
-    7za.exe                   # 7zip exe
-    7zsd_All.sfx	          # 7zip Self Extract utility for bundling Winforms app into a self-extracting exe
     ILMerge.exe			      # ILMerge to merge console app output into single binary
-  00-install-dependencies     # runs nom install and bower install, used to download deps after first clone
-  config-winforms.txt         # 7zip SFX config for self-extracting Winforms App 
+  00-install-dependencies     # runs npm install, used to download deps after first clone (VS2015 does this for you)
   package-deploy-console.bat  # runs ILMerge to package Console App
-  package-deploy-winforms.bat # stagings winforms app and packages using 7zip SFX and config-winforms.txt
 ```
 
 ### Deploying the ASP.NET Web App
@@ -164,7 +155,7 @@ and UserName/Password of an Account with permission to deploy a Website with MS 
 }
 ```
 
-Then run the `04-deploy-webapp` Grunt task to package the optimized React App in `/wwwroot` into a 
+Then run the `04-deploy-webapp` Gulp task to package the optimized React App in `/wwwroot` into a 
 `webdeploy.zip` package which it publishes to a remote IIS Web Server using the configuration above.
 
 > If you specify **Visual Studio** settings when creating a repo in GitHub its will ignore the `/publish` 
@@ -181,8 +172,8 @@ React Web Application without any consideration for the different platforms the 
 The template follows the same
 [Modern React Apps with .NET](https://github.com/ServiceStackApps/Chat-React#modern-reactjs-apps-with-net)
 as ServiceStack's other Single Page App templates which uses node's rich ecosystem to enable access to premier
-Web technologies including [bower](http://bower.io/) for client dependencies and pre-configured
-[Grunt](http://gruntjs.com) and [Gulp](http://gulpjs.com) tasks to take care of website bundling, optimization,
+Web technologies and pre-configured
+[Gulp](http://Gulpjs.com) and [Gulp](http://gulpjs.com) tasks to take care of website bundling, optimization,
 application packaging and ASP.NET Website deployemnts.
 
 The entire React application is hosted within a single static 
@@ -199,57 +190,48 @@ Apps resources:
 <head lang="en">
     <meta charset="UTF-8">
 
-    <!--build:css /lib/css/lib.min.css--><!-- 3rd Party css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!--build:css lib/css/lib.min.css -->
+    <link rel="stylesheet" href="jspm_packages/npm/bootstrap@3.2.0/css/bootstrap.css" />
     <!-- endbuild -->
-
-    <!--build:css /css/app.min.css-->
-    <link rel="stylesheet" href="/css/app.css" /><!-- App css -->
+    <!--build:css css/app.min.css-->
+    <link rel="stylesheet" href="css/app.css" />
     <!-- endbuild -->
-
-    <link rel="stylesheet" href="/platform.css" /><!-- platform-specific css -->
-
-    <!-- build:js /lib/js/lib.min.js --><!-- 3rd Party Libraries -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <script src="bower_components/react/react.js"></script>
-    <!-- endbuild -->
-
-    <script src="/js/ss-utils.js"></script><!-- ss-utils in ServiceStack.dll -->
-       
-    <!-- build:js /js/app.min.js --><!-- App non-UI and static utils, React Stores, etc -->
-    <script src="/js/utils.js"></script>
-    <!-- endbuild -->
-
-    <script src="/platform.js"></script><!-- platform-specific js -->
+    <link rel="stylesheet" href="/platform.css" />
 
     <title>DefaultApp</title>
 </head>
 <body>
-    <!-- build:js /js/app.jsx.js --><!-- App React Components -->
-    <script type="text/jsx" src="/js/components/hello.jsx"></script>
-    <script type="text/jsx" src="/js/app.jsx"></script>
+    <div id="content"></div>
+    <!-- build:js system.js -->
+    <script src="jspm_packages/system.js"></script>
     <!-- endbuild -->
-    
-    <!-- build:remove --><!-- Render JSX on-the-fly without pre-compilation -->
-    <script src="bower_components/react/JSXTransformer.js"></script>
+
+    <script src="config.js"></script>
+
+    <!-- build:remove -->
+    <script src="deps.lib.js"></script>
     <!-- endbuild -->
+    <!-- htmlbuild:appbundle -->
+    <!-- endbuild -->
+
+    <script>
+        System.import("./src/app");
+    </script>
+
+    <script src="/platform.js"></script>
 </body>
 </html>
 ```
 
-For a lot of apps, most of your time will be spent creating the Web UI encapsulated in React Components 
-which are maintained in the last group. The `JSXTransformer.js` is only required during development to enable
-on-the-fly changes without pre-compilation. It gets removed during bundling as it's no longer needed since
-the JSX compiled JavaScript outputs are referenced instead. 
+Since this template uses JSPM and TypeScript, unless you are including additional stylesheets, your main HTML file 
+shouldn't need updating.
 
-The `01-bundle-all` Grunt task takes care of bundling and copying all resources into the `/wwwroot` folder 
+The `01-bundle-all` Gulp task takes care of bundling and copying all resources into the `/wwwroot` folder 
 and **DefaultApp.Resources** project, transforming it into the following
 [default.html](https://github.com/ServiceStackApps/ReactDesktopApps/blob/master/src/DefaultApp/DefaultApp/DefaultApp.Resources/default.html):
 
 ```html
-<!-- Auto generated by DefaultApp\gruntfile.js -->
+<!-- Auto generated by DefaultApp\Gulpfile.js -->
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -286,8 +268,8 @@ allowing the entire Web Application to be embedded inside the .NET **DefaultApp.
 This is what each of the Desktop and Console Application references to be able to host your Website.
 
 Should you wish to add additional resources outside these pre-defined groups you'll need to 
-[ensure they're copied over](https://github.com/ServiceStackApps/ReactDesktopApps/blob/master/src/DefaultApp/DefaultApp/DefaultApp/gruntfile.js#L4) 
-by Grunt and then have their **Build Action** set to `Embedded Resource`.
+[ensure they're copied over](https://github.com/ServiceStackApps/ReactDesktopApps/blob/master/src/DefaultApp/DefaultApp/DefaultApp/Gulpfile.js#L4) 
+by Gulp and then have their **Build Action** set to `Embedded Resource`.
 
 ![](https://github.com/ServiceStack/Assets/raw/master/img/servicestackvs/react-desktop-apps-embedded-resource.png)
 
@@ -298,18 +280,17 @@ in preparation for production deployment:
 ```
 /wwwroot
   /css
-    app.min.css     # App styles
-  /img              # App images
-  /js
-    app.jsx.js      # App React Components 
-    app.min.js      # App non-UI utils
+    app.min.css
+  /img              #  all application images
   /lib
-    /css
-      lib.min.css   # 3rd party css, e.g: Bootstrap
-    /fonts          # 3rd party fonts, e.g: Bootstrap
-    /js
-      lib.min.js    # 3rd party JS, e.g: jQuery, React
-  default.html      # App website HTML
+    /css            # 3rd party css, eg bootstrap
+    /fonts          # 3rd party fonts
+    /js             # 3rd party minified JS
+      lib.min.js
+  app.js            # Result of JSPM bundle of application TypeScript and TSX files
+  config.js         # JSPM config.js
+  system.js         # JSPM system.js
+  default.cshtml/default.html
 ```
 
 ## Host Projects
@@ -375,20 +356,32 @@ We use the `window.nativeHost` API to encapsulate the differences and invoke nat
 on each platform. 
 
 #### Web Native Host
+Since the web project is written in TypeScript/TSX, we can take advantage of TypeScript to write out native host.
+We want to attach it to the `window`, so we'll also need to append our `Window` interface to include `nativeHost` object.
 
 When running as a normal ASP.NET Web App these API's just call the browsers DOM:
 
-```js
+``` typescript
 /* web */
-window.nativeHost = {
-    quit: function() {
+interface Window {
+    nativeHost: any;
+}
+
+class WebNativeHost {
+    showAbout() {
+        alert("DefaultApp - ServiceStack + React");
+    }
+
+    toggleFormBorder() {}
+
+    quit() {
         window.close();
-    },
-    showAbout: function() {
-        alert('DefaultApp - ServiceStack + ReactJS');
-    },
-    platform: 'web'
-};
+    }
+	
+    ready() {}
+}
+
+window.nativeHost = window.nativeHost || new WebNativeHost();
 ```
 
 #### Console Native Host
@@ -580,28 +573,20 @@ public FormMain()
 {
     InitializeComponent();
     VerticalScroll.Visible = false;
+
     ChromiumBrowser = new ChromiumWebBrowser(Program.HostUrl)
     {
         Dock = DockStyle.Fill
     };
+
     Controls.Add(ChromiumBrowser);
 
     Load += (sender, args) =>
     {
+        FormBorderStyle = FormBorderStyle.None;
         Left = Top = 0;
         Width = Screen.PrimaryScreen.WorkingArea.Width;
         Height = Screen.PrimaryScreen.WorkingArea.Height;
-    };
-
-    FormClosing += (sender, args) =>
-    {
-        //Make closing feel more responsive.
-        Visible = false;
-    };
-
-    FormClosed += (sender, args) =>
-    {
-        Cef.Shutdown();
     };
 
     ChromiumBrowser.RegisterJsObject("nativeHost", new NativeHost(this));
@@ -655,53 +640,66 @@ public partial class MainWindow : MonoMac.AppKit.NSWindow
 }
 ```
 
-## Grunt Tasks
+## Gulp Tasks
 
-Grunt and Gulp are used in the DefaultApp project to automate the bundling, packaging and deployment of the 
-applications. These tasks are declared as small, composable Grunt tasks that are then orchestrated 
+Gulp tasks are used in the DefaultApp project to automate the bundling, packaging and deployment of the 
+applications. These tasks are declared as small, composable Gulp tasks that are then orchestrated 
 by the high-level Alias tasks which are easily run within Visual Studio using **Task Runner Explorer** or
-from the command-line with the `grunt` script.
+from the command-line with the `Gulp` script.
 
 ### 01-bundle-all
 
-Just like the existing AngularJS and React Single Page App templates, we stage our application ready for 
-release and avoid any build steps at development time to improve the simplicity and speed of the development 
-workflow. This alias task is made up of small, simple tasks that use Gulp to process resources and perform 
-tasks like minification, JSX transformation, copying/deleting of resources, etc.
+Just like the AngularJS and React App template, we stage our application ready for release and avoid any build steps at development time to improve the simplicity and speed of the development workflow. This alias task is made up of small, simple tasks that use Gulp to process resources and perform tasks like minification, TSX transformation, copying/deleting of resources, etc.
 
-The bundling searches for assets in any `*.html` file and follows build comments to minify and replace 
-references. This enables simple use of debug JS files whilst still having control how our resources minify.
+The bundling searches for assets in any `**/*.html` file and follows build comments to minify and replace references. This enables simple use of debug JS files whilst still having control how our resources minify.
 
 ```html
-<!-- build:js /js/app.min.js --><!-- App non-UI and static utils, React Stores, etc -->
-<script src="/js/utils.js"></script>
+<!-- build:js system.js -->
+<script src="jspm_packages/system.js"></script>
 <!-- endbuild -->
 
-<!-- build:js /js/app.jsx.js --><!-- App React Components -->
-<script type="text/jsx" src="/js/components/hello.jsx"></script>
-<script type="text/jsx" src="/js/app.jsx"></script>
+<script src="config.js"></script>
+
+<!-- build:remove -->
+<script src="deps.lib.js"></script>
 <!-- endbuild -->
+	
+<!-- htmlbuild:appbundle -->
+<!-- endbuild -->
+
+<script src="platform.js"></script>
+	
+<script>
+    System.import("./src/app");
+</script>
 ```
 
-When creating new JS files for your application, they should be added in the `build:js /js/app.min.js` or
-`build:js js/app.jsx.js` HTML comments shown above.
+Since we are using JSPM and TypeScript/TSX files, when we add new files/components to our application, we don't have 
+to update the `default.html` as JSPM will pickup any new files used by your application. If you find initial load times 
+are slow due to lots of network requests, run the `00-update-deps-js` Gulp task, this will pull in the library 
+dependencies of your application and greatly reduce the number of network requests JSPM will have to perform during 
+your whilst developing locally. See more info in the 
+[TypeScript Redux introduction](https://github.com/ServiceStackApps/typescript-redux#preloading-dependencies).
 
-Should you need to extend the Grunt task to copy additional resources you can specify additional them in
+Should you need to extend the Gulp task to copy additional resources you can specify additional them in
 the `COPY_FILES` rules at the top of 
-[gruntfile.js](https://github.com/ServiceStackApps/ReactDesktopApps/blob/master/src/DefaultApp/DefaultApp/DefaultApp/gruntfile.js):
+[Gulpfile.js](https://github.com/ServiceStackApps/ReactDesktopApps/blob/master/src/DefaultApp/DefaultApp/DefaultApp/Gulpfile.js):
 
 ```js
+var argv = require('yargs').argv;
 var WEB = 'web';
 var NATIVE = 'native';
+
+var webBuildDir = argv.serviceStackSettingsDir || './wwwroot_build/';
 
 var COPY_FILES = [
     { src: './bin/**/*', dest: 'bin/', host: WEB },
     { src: './img/**/*', dest: 'img/' },
     { src: './App_Data/**/*', dest: 'App_Data/', host: WEB },
     { src: './Global.asax', host: WEB },
-    { src: './bower_components/bootstrap/dist/fonts/*.*', dest: 'lib/fonts/' },
-    { src: './platform.js', dest: 'js/', host: WEB },
-    { src: './wwwroot_build/deploy/*.*', host: WEB },
+    { src: './jspm_packages/npm/bootstrap@3.2.0/dist/fonts/*.*', dest: 'lib/fonts/' },
+    { src: ['./config.js', './platform.js', './platform.css'], dest: '/', host: WEB },
+    { src: webBuildDir + 'deploy/*.*', host: WEB },
     {
         src: './web.config',
         host: [WEB],
@@ -762,77 +760,60 @@ COPY /Y .\staging-console\%OUTPUTNAME% .\apps\DefaultApp-console.exe
 
 ### 03-package-winforms
 
-This task also performs `01-build-all` as well restoring NuGet packages and building the **AppWinForms** project. 
-Once the project resources are ready, it calls `package-deploy-winforms.bat` which uses 7zip SFX to zip and 
-compresses the CefSharp.WinForms DefaultApp.AppWinForms application into a single self-extracting executable.
+This task also performs `01-build-all` as well restoring NuGet packages and building the **AppWinForms** project. Once the project resources are ready, it uses [Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) to package your application into a Windows installer `Setup.exe` and places it in `wwwroot_build/apps`. The resultant `Setup.exe` and related NuGet package files are used to handle installation and updating client application.
 
-```bat
-IF EXIST staging-winforms\ (
-RMDIR /S /Q .\staging-winforms
-)
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/servicestackvs/Squirrel-Logo.png)](https://github.com/Squirrel/Squirrel.Windows)
 
-MKDIR staging-winforms
+The template is already setup to easily enable auto updates for your application using Squirrel.Windows and GitHub Releases. Once you've created a project from the React Desktop Apps template, we need to change two pieces of config within the `App.config` in the **Host.AppWinForms** project, specifically `EnableAutoUpdate` to **true** and `UpdateManagerUrl` to your **GitHub project URL** (exclude the trailing slash).
 
-SET TOOLS=.\tools
-SET RELEASE=..\..\DefaultApp.AppWinForms\bin\x86\Release
-COPY %RELEASE%\DefaultApp.AppWinForms.exe .\staging-winforms
-COPY %RELEASE%\DefaultApp.AppWinForms.exe.config .\staging-winforms
-COPY %RELEASE%\CefSharp.BrowserSubprocess.exe .\staging-winforms
-ROBOCOPY "%RELEASE%" ".\staging-winforms" *.dll *.pak *.dat /E
-
-IF NOT EXIST apps (
-mkdir apps
-)
-
-IF EXIST DefaultApp-winforms.7z (
-del DefaultApp-winforms.7z
-)
-
-IF EXIST DefaultApp-winforms.exe (
-del DefaultApp-winforms.exe
-)
-
-cd tools && 7za a ..\DefaultApp-winforms.7z ..\staging-winforms\* && cd..
-copy /b .\tools\7zsd_All.sfx + config-winforms.txt + DefaultApp-winforms.7z .\apps\DefaultApp-winforms.exe
+``` xml
+<configuration>
+  ...
+  <appSettings>
+    <add key="EnableAutoUpdate" value="true" />
+    <add key="UpdateManagerUrl" value="https://github.com/{Name}/{AppName}"/>
+  </appSettings>
+</configuration>
 ```
 
-If additional files not included in the `ROBOCOPY`/`COPY` commands below are needed in the application, 
-they'll need to be included in the `ROBOCOPY` command in 
-[package-deploy-winforms.bat](https://github.com/ServiceStackApps/ReactDesktopApps/blob/master/src/DefaultApp/DefaultApp/DefaultApp/wwwroot_build/package-deploy-winforms.bat). 
+To package the Windows application we can use a preconfigured Gulp task called **02-package-winforms**. This will build all the required resources for your application and package them into a `Setup.exe` Windows installer. These files are located in the main project under **wwwroot_build\apps\winforms-installer**. The **Releases** folder contains all the distributables of your Windows application. 
 
-By default, all the files required for the Chromium Embedded Framework are included in the template script.
-
-```batch
-COPY %RELEASE%\DefaultApp.AppWinForms.exe .\staging-winforms
-COPY %RELEASE%\DefaultApp.AppWinForms.exe.config .\staging-winforms
-ROBOCOPY "%RELEASE%" ".\staging-winforms" *.dll *.pak *.dat /E
+```
+MyReactApp
+\wwwroot_build
+  \apps
+    \winforms-installer
+      \Releases
+        \MyReactApp-1.0.0.0-full.nupkg
+        \RELEASES
+        \Setup.exe 
 ```
 
-Once all the required files in are staged in the `staging-winforms`, this directory's contents gets zipped 
-into a `.7z` compressed file, then packaged into a self executing zip using the `config-winforms.txt` file. 
+To publish your initial version to GitHub, create a [Release in GitHub](https://help.github.com/articles/creating-releases/) and upload these 3 files in your releases folder.
 
-``` txt
-;!@Install@!UTF-8!
-ExecuteFile="DefaultApp.AppWinForms.exe"
-GUIMode="2"
-;!@InstallEnd@!
-```
-Configuration options for 7z SFX can be found in the 
-[7z SFX documentation](http://7zsfx.info/en/configinfo.html).
+![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/servicestackvs/react-desktop-apps-release1.png)
 
-The Default App solution is using a modified version of the 7zsd_All.sfx file which generates the 
-self executable with the custom ServiceStack `.ico` file. More information on how to change this to a custom 
-icon can be found on the [7zsfx.info](http://7zsfx.info/en/icon.html) site.
+Steps to update your application, eg to 1.1, would be the following.
+
+- 1. Update the version of the AppWinForms project, either directly in `Properties/AssemblyInfo.cs` or through Project properties GUI.
+- 2. Save changes and run the `02-package-winforms` Gulp task.
+ 
+![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/servicestackvs/react-desktop-gulp-squirrel-package.png)
+
+
+- 3. Commit your changes and push them to GitHub. (**This is required due to the new tag needs to be on a different commit**)
+- 4. Create a new GitHub release and include the same 3 files, plus the **delta** NuGet package. Clients running `1.0.0.0` will detect the new version and updates can be easily managed with Squirrel.Windows.
+
+>During step 2 your new version is picked up by the Gulp task and Squirrel creates a delta NuGet package, eg `MyReactApp-1.1.0.0-delta.nupkg` which will be used for quick updates to clients on the previous version (1.0). 
+
+![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/servicestackvs/react-desktop-apps-release2.png)
+
+Users that have installed version `1.0.0.0` will see a prompt already setup in the template that asks to update the application. By clicking update, the `delta` of `1.1.0.0` is downloaded and applied, then the application is restarted running the newer version of the application. 
+
+![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/servicestackvs/auto-update-preview.gif)
 
 ### 04-deploy-webapp
-
-This Grunt task uses the same conventions as those 
-[found in the deploy task](https://github.com/ServiceStack/ServiceStackVS/blob/master/angular-spa.md#04-deploy-app) 
-for the AngularJS and ReactApp templates.
- 
-WebDeploy is used to deploy the application from the staged `wwwroot` folder to an 
-existing IIS application. Config for the deployment, eg the IIS Server address, application name, 
-username and password is located in the `/wwwroot_build/publish/config.js`. 
+This Gulp task uses the same conventions as those found in the AngularJS and ReactApp template in ServiceStackVS. WebDeploy is used to deploy the application from the staged `wwwroot` folder to an existing IIS application. Config for the deployment, eg the IIS Server address, application name, username and password is located in the `/wwwroot_build/publish/config.js`. 
 
     {
         "iisApp": "YourAppName",
@@ -841,13 +822,9 @@ username and password is located in the `/wwwroot_build/publish/config.js`.
         "password" : "{WebDeployPassword}"
     }
 
-If you are using **Github's default Visual Studio ignore, this file will not be included in source control** 
-due to the default rule of `publish/` to be ignored. You should check your Git Repository `.gitignore` rules 
-before committing any potentially sensitive information into public source control.
+If you are using **Github's default Visual Studio ignore, this file will not be included in source control** due to the default rule of `publish/` to be ignored. You should check your Git Repository `.gitignore` rules before committing any potentially sensitive information into public source control.
 
-This task shows a quick way of updating your development server quickly after making changes to your 
-application. For more information on use web-deploy using either Grunt or just Visual Studio publish, see 
-[WebDeploy with AWS](https://github.com/ServiceStack/ServiceStack/wiki/WebDeploy-with-AWS#deploy-using-grunt).
+This task shows a quick way of updating your development server quickly after making changes to your application. For more information on use web-deploy using either Gulp or just Visual Studio publish, see [WebDeploy with AWS](https://github.com/ServiceStack/ServiceStack/wiki/Simple-Deployments-to-AWS-with-WebDeploy).
 
 ### Further Reading
 
