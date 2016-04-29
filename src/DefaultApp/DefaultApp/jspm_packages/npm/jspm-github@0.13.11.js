@@ -1,1 +1,0 @@
-module.exports = require("npm:jspm-github@0.13.11/github.js");
